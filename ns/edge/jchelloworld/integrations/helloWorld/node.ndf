@@ -63,10 +63,10 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">john</value>
-    <value name="lastModifiedDate">1698060863634</value>
+    <value name="lastModifiedDate">1698061085719</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">e7cd032fb3ef438ebcb3f751ce614b59</value>
-      <null name="group"/>
+      <value name="group">default</value>
       <value name="name">JC_MAC</value>
     </record>
     <value name="displayName">helloWorld</value>
@@ -89,6 +89,7 @@
         <number name="nodeIndex" type="Long">0</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
       </record>
       <record name="/1" javaclass="com.wm.util.Values">
         <value name="itemType">APPS</value>
@@ -139,6 +140,22 @@
         <number name="ui_step_index" type="Long">2</number>
         <number name="nodeIndex" type="Long">1</number>
         <null name="outputMapSet"/>
+      </record>
+      <record name="/2" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">PACKAGES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">JcPublicTools</value>
+          <value name="groupName">JcPublicTools;1.0</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="description">jc.tools.pub.date:currentYear</value>
+          <value name="serviceName">jc.tools.pub.date:currentYear</value>
+          <value name="displayName">currentYear</value>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
       </record>
     </record>
   </record>

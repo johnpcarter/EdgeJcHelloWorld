@@ -19,52 +19,52 @@ services:
   - name: EdgeJcHelloWorld
     version: "1.0"
 configurationVariables:
-  ? artConnection.EdgeJcHelloWorld.edge.jchelloworld.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LOGGER.connectionManagerSettings.expireTimeout
-  : "1000"
-  ? artConnection.EdgeJcHelloWorld.edge.jchelloworld.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LOGGER.connectionSettings.dbType
-  : MySQL
-  ? artConnection.EdgeJcHelloWorld.edge.jchelloworld.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LOGGER.connectionSettings.user
-  : scratch
-  ? artConnection.EdgeJcHelloWorld.edge.jchelloworld.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LOGGER.connectionSettings.portNumber
-  : "3306"
-  ? artConnection.EdgeJcHelloWorld.edge.jchelloworld.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LOGGER.connectionEnabled
-  : "false"
   ? artConnection.EdgeJcHelloWorld.edge.jchelloworld.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LOGGER.connectionManagerSettings.poolable
   : "false"
+  ? artConnection.EdgeJcHelloWorld.edge.jchelloworld.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LOGGER.connectionSettings.keyStore
+  : ""
+  ? artConnection.EdgeJcHelloWorld.edge.jchelloworld.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LOGGER.connectionManagerSettings.startupBackoffSecs
+  : "10"
+  ? artConnection.EdgeJcHelloWorld.edge.jchelloworld.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LOGGER.connectionSettings.driverType
+  : default
+  ? artConnection.EdgeJcHelloWorld.edge.jchelloworld.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LOGGER.connectionSettings.password
+  : "{AES}Y5IgMqjfvkgbg7p5VUZztw=="
   ? artConnection.EdgeJcHelloWorld.edge.jchelloworld.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LOGGER.connectionSettings.trustStore
   : ""
+  ? artConnection.EdgeJcHelloWorld.edge.jchelloworld.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LOGGER.connectionManagerSettings.expireTimeout
+  : "1000"
+  ? artConnection.EdgeJcHelloWorld.edge.jchelloworld.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LOGGER.connectionManagerSettings.poolIncrementSize
+  : "1"
   ? artConnection.EdgeJcHelloWorld.edge.jchelloworld.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LOGGER.connectionManagerSettings.startupRetryCount
   : "0"
   ? artConnection.EdgeJcHelloWorld.edge.jchelloworld.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LOGGER.connectionSettings.databaseName
   : scratch
   ? artConnection.EdgeJcHelloWorld.edge.jchelloworld.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LOGGER.connectionSettings.transactionType
   : NO_TRANSACTION
+  ? artConnection.EdgeJcHelloWorld.edge.jchelloworld.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LOGGER.connectionManagerSettings.minimumPoolSize
+  : "0"
+  ? artConnection.EdgeJcHelloWorld.edge.jchelloworld.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LOGGER.connectionSettings.dbType
+  : MySQL
+  ? artConnection.EdgeJcHelloWorld.edge.jchelloworld.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LOGGER.connectionSettings.user
+  : scratch
+  ? artConnection.EdgeJcHelloWorld.edge.jchelloworld.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LOGGER.connectionSettings.portNumber
+  : "3306"
   ? artConnection.EdgeJcHelloWorld.edge.jchelloworld.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LOGGER.connectionSettings.serverName
   : host.docker.internal
+  ? artConnection.EdgeJcHelloWorld.edge.jchelloworld.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LOGGER.connectionEnabled
+  : "false"
   ? artConnection.EdgeJcHelloWorld.edge.jchelloworld.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LOGGER.connectionSettings.networkProtocol
   : ""
+  ? artConnection.EdgeJcHelloWorld.edge.jchelloworld.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LOGGER.connectionManagerSettings.blockingTimeout
+  : "1000"
+  ? artConnection.EdgeJcHelloWorld.edge.jchelloworld.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LOGGER.connectionSettings.otherProperties
+  : loginTimeout=60;
   ? artConnection.EdgeJcHelloWorld.edge.jchelloworld.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LOGGER.connectionManagerSettings.heartBeatInterval
   : "0"
   ? artConnection.EdgeJcHelloWorld.edge.jchelloworld.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LOGGER.connectionManagerSettings.maximumPoolSize
   : "10"
   ? artConnection.EdgeJcHelloWorld.edge.jchelloworld.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LOGGER.connectionSettings.datasourceClass
   : com.mysql.cj.jdbc.MysqlDataSource
-  ? artConnection.EdgeJcHelloWorld.edge.jchelloworld.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LOGGER.connectionSettings.keyStore
-  : ""
-  ? artConnection.EdgeJcHelloWorld.edge.jchelloworld.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LOGGER.connectionManagerSettings.startupBackoffSecs
-  : "10"
-  ? artConnection.EdgeJcHelloWorld.edge.jchelloworld.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LOGGER.connectionSettings.password
-  : "{AES}Y5IgMqjfvkgbg7p5VUZztw=="
-  ? artConnection.EdgeJcHelloWorld.edge.jchelloworld.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LOGGER.connectionManagerSettings.blockingTimeout
-  : "1000"
-  ? artConnection.EdgeJcHelloWorld.edge.jchelloworld.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LOGGER.connectionSettings.driverType
-  : default
-  ? artConnection.EdgeJcHelloWorld.edge.jchelloworld.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LOGGER.connectionManagerSettings.poolIncrementSize
-  : "1"
-  ? artConnection.EdgeJcHelloWorld.edge.jchelloworld.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LOGGER.connectionManagerSettings.minimumPoolSize
-  : "0"
-  ? artConnection.EdgeJcHelloWorld.edge.jchelloworld.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LOGGER.connectionSettings.otherProperties
-  : loginTimeout=60;
 packages:
 - name: EdgeJcHelloWorld
   gitServerName: johnpcarter
@@ -76,3 +76,9 @@ packages:
   wpmServer: https://packages.softwareag.com
   wpmRegistry: softwareag
   wpmToken: edge.scaffolding.WmJDBCAdapter.https://packages.softwareag.com.wpmToken
+- name: JcPublicTools
+  gitServerName: johnpcarter
+  gitUrl: https://github.com/johnpcarter
+  gitUsername: johnpcarter
+  gitToken: edge.scaffolding.JcPublicTools.johnpcarter.gitToken
+  gitTag: v1.0
