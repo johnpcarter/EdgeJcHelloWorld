@@ -14,6 +14,10 @@ services:
   packages:
   - name: EdgeJcHelloWorld
     version: "1.0"
+- serviceName: edge.jchelloworld.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:logToTable
+  packages:
+  - name: EdgeJcHelloWorld
+    version: "1.0"
 configurationVariables:
   ? artConnection.EdgeJcHelloWorld.edge.jchelloworld.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LOGGER.connectionManagerSettings.expireTimeout
   : "1000"
