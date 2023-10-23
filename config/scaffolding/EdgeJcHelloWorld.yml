@@ -1,0 +1,10 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: EdgeJcHelloWorld
+  gitServerName: johnpcarter
+  gitUrl: https://github.com/johnpcarter/EdgeJcHelloWorld
+  gitUsername: johnpcarter
+  gitToken: edge.scaffolding.EdgeJcHelloWorld.johnpcarter.gitToken
+  gitBranch: main
