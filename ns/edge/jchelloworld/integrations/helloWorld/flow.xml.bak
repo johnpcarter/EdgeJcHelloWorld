@@ -262,4 +262,8 @@
   <COMMENT></COMMENT>
 </MAP>
 </INVOKE>
+
+<INVOKE NAME="JcPublicTools" SERVICE="jc.tools.pub.date:currentYear">
+  <COMMENT></COMMENT>
+</INVOKE>
 </FLOW>
