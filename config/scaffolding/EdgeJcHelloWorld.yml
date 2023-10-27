@@ -7,7 +7,7 @@ services:
   - name: EdgeJcHelloWorld
     version: "1.0"
   - name: JcPublicTools
-    version: "1.0"
+    version: "5.0"
 - serviceName: pub.flow:debugLog
   packages:
   - name: WmPublic
@@ -21,11 +21,11 @@ services:
   - name: EdgeJcHelloWorld
     version: "1.0"
   - name: JcPublicTools
-    version: "1.0"
+    version: "5.0"
 - serviceName: jc.tools.pub.date:currentYear
   packages:
   - name: JcPublicTools
-    version: "1.0"
+    version: "5.0"
 - serviceName: edge.jchelloworld.integrations:alt
   packages:
   - name: EdgeJcHelloWorld
