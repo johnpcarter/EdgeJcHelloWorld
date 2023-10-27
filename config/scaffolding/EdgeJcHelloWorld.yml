@@ -6,6 +6,8 @@ services:
   packages:
   - name: EdgeJcHelloWorld
     version: "1.0"
+  - name: JcPublicTools
+    version: "1.0"
 - serviceName: pub.flow:debugLog
   packages:
   - name: WmPublic
@@ -17,6 +19,12 @@ services:
 - serviceName: edge.jchelloworld.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:logToTable
   packages:
   - name: EdgeJcHelloWorld
+    version: "1.0"
+  - name: JcPublicTools
+    version: "1.0"
+- serviceName: jc.tools.pub.date:currentYear
+  packages:
+  - name: JcPublicTools
     version: "1.0"
 configurationVariables:
   ? artConnection.EdgeJcHelloWorld.edge.jchelloworld.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.LOGGER.connectionManagerSettings.poolable
@@ -81,4 +89,4 @@ packages:
   gitUrl: https://github.com/johnpcarter
   gitUsername: johnpcarter
   gitToken: edge.scaffolding.JcPublicTools.johnpcarter.gitToken
-  gitTag: v1.0
+  gitTag: v2.1.0
