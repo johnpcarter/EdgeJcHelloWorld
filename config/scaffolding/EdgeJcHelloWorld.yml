@@ -82,7 +82,7 @@ configurationVariables:
 packages:
 - name: EdgeJcHelloWorld
   gitServerName: johnpcarter
-  gitUrl: https://github.com/johnpcarter/EdgeJcHelloWorld
+  gitUrl: https://github.com/johnpcarter
   gitUsername: johnpcarter
   gitToken: edge.scaffolding.EdgeJcHelloWorld.johnpcarter.gitToken
   gitBranch: main
